@@ -108,7 +108,7 @@ body {
     align-items: center;
     height: 57px;
     width: 230px;
-    padding: 8px 0px 0 15px;
+    padding: 11px 0px 0 15px;
 }
 
 .profile-name-slug {
@@ -297,11 +297,13 @@ body {
     object-fit: contain;
     padding-top: 10px;
     padding-bottom: 10px;
+    
 }
 
 .tweet-post-avatar {
     padding-top: 20px;
     padding-left: 20px;
+    margin-right: 11px;
 }
 
 .tweet-post-header-text {
