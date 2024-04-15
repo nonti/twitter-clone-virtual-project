@@ -85,80 +85,78 @@ body {
     border-radius: 30px;
 }
 
+/*profile menu on nav side*/
 .profile-menu {
     display: flex;
-    justify-content: space-between;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    padding-top: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.profile-menu-footer {
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    width: 243px;
+    cursor: pointer;
 }
 
 .profile-items {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60px;
+    height: 57px;
     width: 230px;
-    padding: 5px 0 0 15px;
-}
-
-.profile-image img {
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    display: block;
-    box-sizing: border-box;
-    padding: 3px;
-}
-
-.profile-menu-icon {
-    margin-left: 90px;
-    align-items: flex-end;
+    padding: 8px 0px 0 15px;
 }
 
 .profile-name-slug {
-    display: block;
-    box-sizing: border-box;
-    height: 50px;
-    width: 13px;
-    margin-left: 11px;
+    height: 53px;
+    width: 130px;
+    padding-top: 8px;
+    margin-left: 8px;
 }
 
-.profil-name {
+.profile-name {
+    height: 22px;
+    width: 100%;
     width: fit-content;
     height: fit-content;
-    margin-left: 15px;
-    margin-right: 0;
-    color: white;
+}
+
+.profile-name p {
+    width: fit-content;
+    height: fit-content;
 }
 
 .profile-slug {
-    height: fit-content;
+    color: #808080;
+    height: 22px;
     width: fit-content;
-    color: rgb(168, 184, 199);
+    height: fit-content;
 }
 
-.profile-menu .profile-menu-icon {
-    position: relative;
-    align-items: flex-end;
+.profile-image img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 0 4px 0 0;
+}
 
+.profile-menu-icon {
+    height: 55px;
+    width: 50px;
+    padding-top: 12px;
+    padding-left: 3px;
 }
 
 .profile-menu:hover {
-    background-color: rgba(127, 134, 134, 0.612);
-    border-radius: 9999px;
-    width: fit-content;
+    background-color: #8080809d;
+    border-radius: 30px;
 }
 
-.menu-footer {
-    display: flex;
-    justify-content: center;
-    height: fit-content;
-    width: 242px;
-    cursor: pointer;
-    text-align: center;
-}
-
+/*start of main tweet content*/
 .for-you {
     width: 230px;
     height: 100%;
