@@ -272,6 +272,14 @@ body {
 
 }
 
+.book {
+    padding-right: 20px;
+}
+
+.arrow {
+    margin-right: 5px;
+}
+
 .book:hover svg {
     background-color: rgba(29, 156, 240, 0.275);
     color: rgb(29, 155, 240);
