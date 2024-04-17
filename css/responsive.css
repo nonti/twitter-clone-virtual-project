@@ -1,12 +1,66 @@
-@media (max-width: 480px) {
+/*mobile responsive */
 
-* {
-    overflow-x: hidden;
-}
-
+@media(max-width: 480px){
     .container {
-        margin-inline: auto;
-        width: min(90%, 70.5rem);
+        display: none;
     }
 
+    .trending-tweet {
+        display: none;
+    }
+
+.main-tweet {
+    border: 1px solid rgb(56, 68, 77);
+}
+
+.main-tweet-item {
+    display: inline-block;
+    width: 100%;
+}
+
+.tweet-top-setting {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(21, 32, 43, 0.314);
+}
+
+.input-wrapper input{
+    display: flex;
+}
+
+.show-post {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.post {
+    display: flex;
+}
+
+.tweet-post-avatar img{
+    margin: 15px 0px 0px 15px;
+}
+
+.tweet-img {
+    width: 100%;
+}
+
+.tweet-post-avatar {
+    width: 15%;
+    margin: 0;
+}
+
+.ppst-footer {
+    width: 100%;
+}
+
+.tweet-body-menu {
+    display: flex;
+    padding: 0;
+}
+
+.tweet-body-menu {
+    display: inline-block;
+}
 }
