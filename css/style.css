@@ -737,7 +737,7 @@ input {
 .trending-footer{
     width: 350px;
     height: 130px;
-    color: gray;
+    color: #808080;
     padding: 15px 15px 15px 36px;
 }
 
@@ -750,6 +750,7 @@ input {
 .trending-footer list-style:hover {
     text-decoration: underline;
 }
+
 
 
 
